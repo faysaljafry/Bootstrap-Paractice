@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h3>Button Group Horizontal</h3>
+    <div class = "container btn-group">
+        
+        <button type = "button" class = "btn btn-primary">Apple</button>
+        <button type = "button" class = "btn btn-primary">Samsung</button>
+        <button type = "button" class = "btn btn-primary">Sony</button>
+    </div>
+
+    <h3>Button Vertical group</h3>
+    <div class = "container btn-group-vertical">
+        <button type = "button" class = "btn btn-info">Apple</button>
+        <button type = "button" class = "btn btn-wanrnig">Samsung</button>
+        <button type = "button" class = "btn btn-danger">Sony</button>
+    </div>
+    <h3>Nesting Button Groups and dropDowns</h3>
+    <div class = "container btn-group">
+        <button type = "button" class = "btn btn-info">Apple</button>
+        <button type = "button" class = "btn btn-warning">Samsung</button>
+        <div class = "btn-group container">
+            <button type = "button" class = "btn btn-danger dropdown-toggle" data-toggle = "dropdown">
+                Sony
+            </button>
+            <div class = "dropdown-menu">
+                <a class = "dropdown-item" href = "#">Tablet</a>
+                <a class = "dropdown-item" href = "#">SmartPhone</a>
+            </div>
+        </div>
+    </div>
+    <h3>split Button DropDowns</h3>
+    <div class = "btn-group">
+        <button type = "button" class = "btn btn-dark">Sony</button>
+        <button type = "button" class = "btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle = "dropdown">
+            <span class = "caret"></span>
+        </button>
+        <div class = "dropdown-menu">
+            <a class = "dropdown-item" href = "#">Tablet</a>
+            <a class = "dropdown-item" href = "#">SmartPhone</a>
+        </div>
+    </div>
+
+    <h3>Vertical button Group w/ Dropdown</h3>
+    <div class = "btn-group-vertical">
+        <button type = "button" class = "btn btn-danger">Apple</button>
+        <button type = "button" class = "btn btn-info">Samsung</button>
+        <div class = btn-group>
+            <button type = "button" class = "btn btn-dark dropdown-toggle" data-toggle = "dropdown">
+                Sony
+            </button>
+            <div class = "dropdown-menu">
+                <a class = "dropdown-item" href = "#">Tablet</a>
+                <a class = "dropdown-item" href = "#">Smartphone</a>
+            </div>
+        </div>
+    </div>
+
+    <h3>Button groups Side by side</h3>
+    <div class = "btn-group">
+        <button type = "button" class = "btn btn-dark">Apple</button>
+        <button type = "button" class = "btn btn-light">Samsung</button>
+        <button type = "button" class = "btn btn-info">Sony</button>
+    </div>
+
+    <div class = "btn-group">
+        <button type = "button" class = "btn btn-success">BMW</button>
+        <button type = "button" class = "btn btn-warning">Mercedes</buttom>
+        <button type = "button" class = "btn btn-danger">Volvo</button>
+    </div>
+
+    </div>
+</body>
